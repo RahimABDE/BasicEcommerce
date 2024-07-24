@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>LionCart</title>
+</head>
+
+<body>
+
+    <header class="navBar">
+        <section id="Left-Nav">
+            <img src="https://thumbs.dreamstime.com/b/gold-lion-logo-vector-template-design-illustration-black-background-103776248.jpg" alt="lionLogo">
+            <h2>LionCart</h2>
+        </section>
+        <section id="Right-Nav">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Service</a></li>
+            <li><a href="#">Contact</a></li>
+            <img onclick="closefuncn()" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1DI47c3BrTOMjoOz07HnpO0D8KfrY6Ij3ZQ&s" class="negative" height="25px" width="25px" alt="">
+        </section>
+        <img onclick="openfuncn()" class="threeline" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHpgWkgygsVh4TJMRoda_5W5V98dFK734Xsw&s" alt="" height="25px" width="25px">
+    </header>
+
+
+    <div id="products">
+        <section class="shirt">
+            <img src="https://www.berluti.com/dw/image/v2/BBMR_PRD/on/demandware.static/-/Sites-masterCatalog_Berluti/default/dw2f4b90b9/images/R26HCL89-001_military-linen-shirt_pastel-chambray_berluti_01.jpg?sw=640&sfrm=jpg" alt="shirt" height="200px" width="200px">
+            <div class="details">
+                <h2>SHIRT</h2>
+                <p>Description of product 1.</p>
+                <b>$19.99</b>
+                <button>Add to Cart</button>
+            </div>
+        </section>
+
+        <section class="T-shirt">
+            <img src="https://cdn.pixabay.com/photo/2024/04/29/04/21/tshirt-8726716_640.jpg" alt="shirt" height="200px" width="200px">
+            <div class="details">
+                <h2>T-SHIRT</h2>
+                <p>Description of product 2.</p>
+                <b>$29.99</b>
+                <button>Add to Cart</button>
+            </div>
+        </section>
+
+        <section class="shoe">
+            <img src="https://cdn.pixabay.com/photo/2016/09/08/17/55/shoe-1655010_960_720.png" alt="shirt" height="200px" width="200px">
+            <div class="details">
+                <h2>SHOE</h2>
+                <p>Description of product 1.</p>
+                <b>$19.99</b>
+                <button>Add to Cart</button>
+            </div>
+        </section>
+
+        <section class="watch">
+            <img src="https://m.media-amazon.com/images/I/41MqNR5xneS._AC_SY1000_.jpg" alt="shirt" height="200px" width="200px">
+            <div class="details">
+                <h2>SHIRT</h2>
+                <p>Description of product 2.</p>
+                <b>$59.99</b>
+                <button>Add to Cart</button>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        @this app has been founded on may 2nd
+    </footer>
+
+    <script>
+        
+var sideMenu = document.getElementById("Right-Nav");
+
+function openfuncn() {
+   sideMenu.style.left = "7px";
+   console.log(sideMenu);
+}
+
+function closefuncn() {
+   sideMenu.style.left = "280px";
+}
+    </script>
+
+</body>
+
+</html>
